@@ -1,13 +1,13 @@
 body {
-    min-width: 90vw;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTA3M2Eta3NxeW5zZWcuanBn.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
 }
-h2:first-child {
+header h1:first-child {
     background-color: yellow;
 }
 
@@ -60,11 +60,28 @@ em.good + em.bad {
     color: red;
 }
 
-table:nth-child(2n) {
+tr:nth-child(1n) {
+    background-color: white;
+}
+tr:nth-child(2n) {
     background-color: grey;
 }
 
-#TyPe>li:first-child {
-    background-image: url(bien.png);
-    padding-right: 30px;
+#TyPe li:first-child {
+    background: url(bien.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+#TyPe li:nth-child(2n):not(:last-child) {
+    background: url(mal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+#TyPe li:nth-child(3n) {
+    background: url(chat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
 }
