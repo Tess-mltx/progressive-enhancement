@@ -1,0 +1,47 @@
+body {
+    min-width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(pexels-cottonbro-studio-8261568.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+p {
+    font: serif;
+    font-size: medium;
+    letter-spacing: 0.1em;
+    color: rgb(1, 1, 43);
+}
+
+a {
+    color: rgb(0, 0, 138);
+}
+a:hover {
+    color: rgb(4, 125, 4);
+}
+a:visited {
+    color: rgb(14, 41, 14);
+}
+
+blockquote, blockquote q {
+    width: 50vw;
+    font-size: 160%;
+    font-style: italic;
+    background-color: rgb(196, 220, 226);
+}
+blockquote {
+    margin-left: 40%;
+    border-left: 3px solid firebrick;
+    padding: 30px;
+}
+q {
+    font-style: italic;
+}
+.villagers {
+    border-left: 1px solid blue;
+}
+.farmer {
+    border-left: 1px solid greenyellow;
+}
