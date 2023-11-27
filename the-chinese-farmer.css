@@ -1,5 +1,5 @@
 body {
-    min-width: 90%;
+    min-width: 90vw;
     margin-left: 10%;
     margin-right: 10%;
     background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTA3M2Eta3NxeW5zZWcuanBn.jpg);
@@ -7,7 +7,7 @@ body {
     background-position: bottom right;
     background-size: cover;
 }
-header:first-child {
+h2:first-child {
     background-color: yellow;
 }
 
@@ -37,13 +37,13 @@ blockquote, blockquote q {
 blockquote {
     margin-left: 40%;
     border-left: 3px solid firebrick;
-    padding: 30px;
+    padding: 30px 80px 30px 80px;
 }
 q {
     font-style: italic;
 }
 .villagers {
-    border-left: 1px solid blue;
+    border-left: 3px solid blue;
 }
 .farmer {
     border-left: 3px solid greenyellow;
@@ -62,4 +62,9 @@ em.good + em.bad {
 
 table:nth-child(2n) {
     background-color: grey;
+}
+
+#TyPe>li:first-child {
+    background-image: url(bien.png);
+    padding-right: 30px;
 }
