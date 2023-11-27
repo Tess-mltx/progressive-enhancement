@@ -85,3 +85,9 @@ tr:nth-child(2n) {
     background-size: contain;
     padding-left: 30px;
 }
+
+img {
+    float: left;
+    max-width: 50%;
+    margin: 15px;
+}
