@@ -52,3 +52,14 @@ q {
 em.good + em.bad {
     text-transform: uppercase;
 }
+.good {
+    color: green;
+}
+
+.bad {
+    color: red;
+}
+
+table:nth-child(2n) {
+    background-color: grey;
+}
