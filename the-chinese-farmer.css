@@ -91,3 +91,10 @@ img {
     max-width: 50%;
     margin: 15px;
 }
+
+.notification {
+    position: sticky;
+    bottom: 0px;
+    right: 0px;
+    
+}
