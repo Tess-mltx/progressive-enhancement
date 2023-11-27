@@ -2,10 +2,13 @@ body {
     min-width: 90%;
     margin-left: 10%;
     margin-right: 10%;
-    background-image: url(pexels-cottonbro-studio-8261568.jpg);
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTA3M2Eta3NxeW5zZWcuanBn.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
+}
+header:first-child {
+    background-color: yellow;
 }
 
 p {
@@ -43,5 +46,9 @@ q {
     border-left: 1px solid blue;
 }
 .farmer {
-    border-left: 1px solid greenyellow;
+    border-left: 3px solid greenyellow;
+}
+
+em.good + em.bad {
+    text-transform: uppercase;
 }
